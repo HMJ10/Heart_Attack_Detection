@@ -1,0 +1,221 @@
+<link rel="stylesheet" href="/static/CSS/form.css">
+<div class="container">
+  <HEADER>
+    <header class="header">
+      <a href="#" class="logo">Heart Attack Monitoring System</a>
+      <nav class="nav-items">
+        <a href="/">Home</a>
+        <a href="/form">Form</a>
+        <a href="/about-us">About Us</a>
+      </nav>
+    </HEADER>
+  </headeR>
+  <header class="header">
+    <h1 id="title" class="text-center">Heart Monitoring Survey Form</h1>
+<!--    <p id="description" class="description text-center" style="color:black">-->
+<!--      Thank you for taking the time to help us improve the platform-->
+    </p>
+  </header>
+  <form action="/result" method="post" >
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue"></span></label
+      >
+      <input
+        type="date"
+        name="age"
+        id="number"
+        min="1"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Height<span class="clue"></span></label
+      >
+      <input
+        type="number"
+        name="height"
+        id="number"
+        min="10"
+        max="1000"
+        class="form-control"
+        placeholder="Height(in cms)"
+      />
+    </div>    
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Weight<span class="clue"></span></label
+      >
+      <input
+        type="number"
+        name="weight"
+        id="number"
+        min="10"
+        max="100"
+        class="form-control"
+        placeholder="Weigth(in Kgs)"
+      />
+    </div>
+    <div class="form-group">
+      <p>Gender</p>
+      <label>
+        <input
+          name="gender"
+          value="male"
+          type="radio"
+          class="input-radio"
+        />Male</label
+      >
+      <label>
+        <input
+          name="gender"
+          value="female"
+          type="radio"
+          class="input-radio"
+        />Female</label
+      >
+    </div>
+    <div>
+      <p>Systolic Blood Pressure</p>
+      <label>
+        <input 
+        type="number"
+        name="sbp"
+        id="number"
+        class="form-control">
+    </div>
+    <br>
+    <br>
+    <div>
+      <p>DiaStolic Blood Pressure</p>
+      <label>
+        <input 
+        type="number"
+        name="dbp"
+        id="number"
+        class="form-control">
+    </div>
+      <br>
+      <br>
+   
+    <div class="form-group">
+        <p>Cholesterol</p>
+        <label>
+          <input
+            name="cholestrol"
+            value="Normal"
+            type="radio"
+            class="input-radio"
+          />Normal</label
+        >
+        <label>
+          <input
+            name="cholestrol"
+            value="Above normal"
+            type="radio"
+            class="input-radio"
+          />Above normal</label
+        >
+        <label>
+          <input
+            name="cholestrol"
+            value="Well above normal"
+            type="radio"
+            class="input-radio"
+          />Well above normal</label
+        >
+    </div>
+    <div class="form-group">
+      <p>Glucose</p>
+      <label>
+        <input
+          name="glucose"
+          value="Normal"
+          type="radio"
+          class="input-radio"
+        />Normal</label
+      >
+      <label>
+        <input
+          name="glucose"
+          value="Above normal"
+          type="radio"
+          class="input-radio"
+        />Above normal</label
+      >
+      <label>
+        <input
+          name="gluvose"
+          value="Well above normal"
+          type="radio"
+          class="input-radio"
+        />Well above normal</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Smoking</p>
+      <label>
+        <input
+          name="smoking"
+          value="yes"
+          type="radio"
+          class="input-radio"
+        />Yes</label
+      >
+      <label>
+        <input
+          name="smoking"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Alcohol intake</p>
+      <label>
+        <input
+          name="alcohol"
+          value="yes"
+          type="radio"
+          class="input-radio"
+        />Yes</label
+      >
+      <label>
+        <input
+          name="alcohol"
+          value="fe"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Physical activity</p>
+      <label>
+        <input
+          name="activity"
+          value="yes"
+          type="radio"
+          class="input-radio"
+        />Yes</label
+      >
+      <label>
+        <input
+          name="activity"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

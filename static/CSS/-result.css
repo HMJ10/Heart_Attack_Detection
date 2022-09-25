@@ -1,0 +1,18 @@
+
+/* CSS for body  */
+#box{
+    position: relative;
+    left: 150px;
+}
+.box{
+    padding-left:100px;
+    align-items: center;
+
+}
+#box{
+    position: relative;
+    left: 500x;
+}
+.text{
+    text-align: center;
+}

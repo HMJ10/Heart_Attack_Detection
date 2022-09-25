@@ -1,0 +1,19 @@
+
+/* CSS for body  */
+#box1{
+    position: relative;
+    left: 150px;
+}
+.box1{
+    position: relative;;
+}
+.center {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-weight: 10px;
+}
