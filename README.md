@@ -23,3 +23,29 @@ Use cases:
 Personal Heart Condition Monitoring.
 Can be used by General Physician to give basic advice to the patient.
 Can be used by Hospitals and Diagnostic Centers.
+
+STEPS TO USE:
+Step 1:
+Install Python and required libraries.
+
+Step 2:
+Run the hms_main.py
+Wait for the process to complete
+
+Step 3:
+Check for the .pkl file
+
+Step 4:
+Install Flask
+Run main.py
+open the website/link
+
+Step 5:
+Click on "Check your heart condition now"
+Fill out the form to know your heart condition.
+
+Step 6:
+Check Us at About Us
+
+
+
