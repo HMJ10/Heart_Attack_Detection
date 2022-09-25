@@ -48,4 +48,5 @@ Step 6:
 Check Us at About Us
 
 
+COndition: Weren't able to submit LinuxOne files due to lack of connectivity. Kindly consider the submission via the local files uploaded for the ML process.
 
